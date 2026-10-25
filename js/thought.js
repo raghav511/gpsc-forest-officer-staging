@@ -1,0 +1,71 @@
+// Daily thought and shloka for the Home page. Both change at midnight India time and cycle independently.
+// English sayings are proverbs or from authors long in the public domain; shlokas are classical Sanskrit.
+export const SAYINGS = [
+  ['Arise, awake, and stop not till the goal is reached.', 'Swami Vivekananda'],
+  ['Well begun is half done.', 'Aristotle'],
+  ['Fortune favours the bold.', 'Latin proverb'],
+  ['Little by little, one travels far.', 'Spanish proverb'],
+  ['Practice makes perfect.', 'Proverb'],
+  ['Knowledge is power.', 'Francis Bacon'],
+  ['Where there is a will, there is a way.', 'Proverb'],
+  ['Slow and steady wins the race.', 'Aesop'],
+  ['Take up one idea. Make that one idea your life.', 'Swami Vivekananda'],
+  ['You cannot believe in God until you believe in yourself.', 'Swami Vivekananda'],
+  ['Strength is life, weakness is death.', 'Swami Vivekananda'],
+  ['There is no substitute for hard work.', 'Thomas Edison'],
+  ['Rome was not built in a day.', 'Proverb'],
+  ['Patience is bitter, but its fruit is sweet.', 'Proverb'],
+  ['Do the difficult things while they are easy.', 'Lao Tzu'],
+  ['A journey of a thousand miles begins with a single step.', 'Lao Tzu'],
+  ['It does not matter how slowly you go, as long as you do not stop.', 'Confucius'],
+  ['Diligence is the mother of good luck.', 'Benjamin Franklin'],
+  ['Energy and persistence conquer all things.', 'Benjamin Franklin'],
+  ['Well done is better than well said.', 'Benjamin Franklin'],
+  ['An investment in knowledge pays the best interest.', 'Benjamin Franklin'],
+  ['Drop by drop, the water pot is filled.', 'Dhammapada'],
+  ['We are what we repeatedly do.', 'Will Durant, on Aristotle'],
+  ['Nothing great was ever achieved without enthusiasm.', 'Ralph Waldo Emerson'],
+  ['Self-trust is the first secret of success.', 'Ralph Waldo Emerson'],
+  ['Opportunities multiply as they are seized.', 'Sun Tzu'],
+  ['Victorious warriors win first, and then go to war.', 'Sun Tzu'],
+  ['Learning never exhausts the mind.', 'Leonardo da Vinci'],
+  ['Seize the day.', 'Horace'],
+  ['Every day, in every way, I am getting better and better.', 'Émile Coué'],
+  ['Success is the sum of small efforts, repeated day in and day out.', 'Robert Collier']
+];
+export const SHLOKAS = [
+  ['उद्यमेन हि सिध्यन्ति कार्याणि न मनोरथैः।', 'Hitopadesha', 'Tasks succeed through effort, not by wishing alone.'],
+  ['कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।', 'Bhagavad Gita 2.47', 'Your right is to the work alone, never to its fruits.'],
+  ['योगः कर्मसु कौशलम्।', 'Bhagavad Gita 2.50', 'Yoga is skill in action.'],
+  ['सत्यमेव जयते।', 'Mundaka Upanishad', 'Truth alone triumphs.'],
+  ['उत्तिष्ठत जाग्रत प्राप्य वरान्निबोधत।', 'Katha Upanishad', 'Arise, awake, and learn by approaching the wise.'],
+  ['श्रद्धावाँल्लभते ज्ञानम्।', 'Bhagavad Gita 4.39', 'One who has faith gains knowledge.'],
+  ['विद्या ददाति विनयम्।', 'Hitopadesha', 'Knowledge gives humility.'],
+  ['न हि ज्ञानेन सदृशं पवित्रमिह विद्यते।', 'Bhagavad Gita 4.38', 'Nothing in this world purifies like knowledge.'],
+  ['उद्धरेदात्मनात्मानं नात्मानमवसादयेत्।', 'Bhagavad Gita 6.5', 'Lift yourself up by your own effort; never let yourself sink.'],
+  ['अभ्यासेन तु कौन्तेय वैराग्येण च गृह्यते।', 'Bhagavad Gita 6.35', 'The mind is mastered by steady practice and detachment.'],
+  ['चरैवेति चरैवेति।', 'Aitareya Brahmana', 'Keep moving forward, keep moving forward.'],
+  ['असतो मा सद्गमय। तमसो मा ज्योतिर्गमय।', 'Brihadaranyaka Upanishad', 'Lead me from untruth to truth, from darkness to light.'],
+  ['सिद्धिर्भवति कर्मजा।', 'Bhagavad Gita 4.12', 'Success is born of action.'],
+  ['स्वदेशे पूज्यते राजा विद्वान् सर्वत्र पूज्यते।', 'Chanakya Niti', 'A king is honoured in his own land; the learned are honoured everywhere.'],
+  ['नास्ति विद्यासमं चक्षुर्नास्ति सत्यसमं तपः।', 'Mahabharata', 'There is no eye like knowledge, no discipline like truth.'],
+  ['क्षणशः कणशश्चैव विद्यामर्थं च साधयेत्।', 'Subhashita', 'Gain knowledge moment by moment, and wealth grain by grain.'],
+  ['आलस्यं हि मनुष्याणां शरीरस्थो महान् रिपुः।', 'Bhartrihari', 'Laziness is the great enemy that lives within us.'],
+  ['काकचेष्टा बकध्यानं श्वाननिद्रा तथैव च। अल्पाहारी गृहत्यागी विद्यार्थी पञ्चलक्षणम्॥', 'Subhashita', 'A student needs a crow\'s effort, a crane\'s focus, light sleep, light meals and freedom from distraction.'],
+  ['गते शोको न कर्तव्यो भविष्यं नैव चिन्तयेत्। वर्तमानेन कालेन वर्तयन्ति विचक्षणाः॥', 'Chanakya Niti', 'Do not grieve the past or worry about the future; the wise act in the present.'],
+  ['मन एव मनुष्याणां कारणं बन्धमोक्षयोः।', 'Amritabindu Upanishad', 'The mind alone is the cause of bondage and of freedom.'],
+  ['विद्याधनं सर्वधनप्रधानम्।', 'Subhashita', 'The wealth of knowledge is the greatest of all wealth.'],
+  ['शुभास्ते पन्थानः सन्तु।', 'Traditional blessing', 'May your path be auspicious.'],
+  ['यतो धर्मस्ततो जयः।', 'Mahabharata', 'Where there is righteousness, there is victory.'],
+  ['धर्मो रक्षति रक्षितः।', 'Manusmriti', 'Righteousness protects those who protect it.'],
+  ['सर्वं परवशं दुःखं सर्वमात्मवशं सुखम्।', 'Manusmriti', 'Depending on others brings sorrow; self-reliance brings happiness.'],
+  ['न हि सुप्तस्य सिंहस्य प्रविशन्ति मुखे मृगाः।', 'Hitopadesha', 'Deer do not walk into the mouth of a sleeping lion.'],
+  ['वीरभोग्या वसुन्धरा।', 'Sanskrit saying', 'The earth belongs to the brave.'],
+  ['यथा ह्येकेन चक्रेण न रथस्य गतिर्भवेत्। एवं पुरुषकारेण विना दैवं न सिध्यति॥', 'Hitopadesha', 'A chariot cannot run on one wheel; fortune does not succeed without effort.'],
+  ['सुखार्थी त्यजते विद्यां विद्यार्थी त्यजते सुखम्।', 'Chanakya Niti', 'The comfort-seeker gives up learning; the learner gives up comfort.']
+];
+// Day number in India time, so the pair changes at midnight IST on every device.
+export function today(now = Date.now()) {
+  const d = Math.floor((now + 19800000) / 86400000);
+  return { day: d, saying: SAYINGS[d % SAYINGS.length], shloka: SHLOKAS[d % SHLOKAS.length] };
+}
